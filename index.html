@@ -209,7 +209,7 @@
 
         .stats {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
         }
@@ -571,6 +571,7 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -595,10 +596,10 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Full Stack Developer Passionate About Building</h3>
-                    <p>I'm a dedicated Full Stack Developer with 4.7 years of hands-on experience building scalable web applications. I specialize in the MERN and MEAN stacks, crafting everything from responsive frontends to robust backend APIs.</p>
-                    <p>My expertise lies in designing RESTful APIs, optimizing performance (achieved 40% reduction in page load time on previous projects), and collaborating with cross-functional teams in Agile environments.</p>
-                    <p>Based in Noida, India, I'm currently at Trangile Service Pvt. Ltd., where I contribute to enterprise-scale applications serving millions of users.</p>
+                    <h3>Full Stack Developer Specializing in Enterprise Scale Solutions</h3>
+                    <p>I'm a dedicated Full Stack Developer with 4.7 years of hands-on experience building scalable, production-ready web applications for enterprise systems. I specialize in the MERN and MEAN stacks, architecting everything from interactive frontends to robust backend microservices handling millions of transactions.</p>
+                    <p>My expertise includes designing RESTful APIs (50+ endpoints developed), database optimization, real-time data processing, and full-stack performance optimization. I've achieved a 40% reduction in end-to-end latency and 50% faster load times through strategic architecture decisions and code optimization.</p>
+                    <p>Currently at Trangile Service Pvt. Ltd., working on enterprise ERP platforms serving 40+ million consumers. I combine technical excellence with strong collaboration skills, thriving in Agile environments where I actively participate in code reviews, sprint planning, and cross-functional team initiatives.</p>
                 </div>
                 <div class="stats">
                     <div class="stat">
@@ -606,12 +607,16 @@
                         <div class="stat-label">Years Experience</div>
                     </div>
                     <div class="stat">
-                        <div class="stat-number">15+</div>
-                        <div class="stat-label">Projects Completed</div>
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">APIs Developed</div>
                     </div>
                     <div class="stat">
                         <div class="stat-number">40%</div>
-                        <div class="stat-label">Performance Gain</div>
+                        <div class="stat-label">Latency Reduction</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">40M+</div>
+                        <div class="stat-label">Users Served</div>
                     </div>
                 </div>
             </div>
@@ -755,43 +760,46 @@
             <div class="experience-timeline">
                 <div class="experience-item">
                     <div class="experience-header">
-                        <h3>Software Engineer</h3>
+                        <h3>Software Engineer (Full Stack Developer)</h3>
                         <span class="experience-date">Jan 2022 – Present</span>
                     </div>
-                    <p class="experience-company">Trangile Service Pvt. Ltd.</p>
+                    <p class="experience-company">Trangile Service Pvt. Ltd. | Client: Vestige Marketing Pvt Ltd</p>
                     <div class="experience-description">
-                        <p><strong>Key Achievements:</strong></p>
-                        <ul style="margin-left: 1.5rem; color: var(--text-light);">
-                            <li>Built and maintained full-stack applications using MERN stack with MongoDB for flexible data modeling</li>
-                            <li>Optimized application responsiveness and reduced end-to-end latency by 40%</li>
-                            <li>Designed highly scalable RESTful APIs and microservices using Node.js and Express.js</li>
-                            <li>Modeled and optimized MongoDB collections for high-traffic, data-intensive features</li>
-                            <li>Delivered comprehensive invoicing feature with secure download support</li>
-                            <li>Collaborated in Agile teams for sprint planning, code reviews, and standups</li>
+                        <p><strong>Scaling Enterprise ERP for 40+ Million Consumers</strong></p>
+                        <ul style="margin-left: 1.5rem; color: var(--text-light); line-height: 1.9;">
+                            <li><strong>Performance Optimization:</strong> Reduced end-to-end latency by 40% through high-level structural design patterns and full-stack performance optimization</li>
+                            <li><strong>API Development:</strong> Developed 50+ RESTful endpoints using Express.js and MongoDB, processing millions of transactions with 100% reliability</li>
+                            <li><strong>Dynamic Billing Module:</strong> Architected and built the Dynamic Billing module in Angular enabling purchases from multiple store/warehouse locations with unified checkout flow</li>
+                            <li><strong>Inventory Management:</strong> Implemented real-time inventory reconciliation logic across locations, ensuring accurate, location-aware invoicing for enterprise billing workflows</li>
+                            <li><strong>Analytics Dashboard:</strong> Developed Vestige Verdict Dashboard using Next.js Server-Side Rendering (SSR), achieving 50% faster load times and improved SEO for real-time analytics</li>
+                            <li><strong>E-KYC System:</strong> Architected high-throughput backend automation workflow, integrating third-party Karza engine APIs for instantaneous document validation at scale</li>
+                            <li><strong>Database Optimization:</strong> Modeled and optimized MongoDB collections and queries to support high-traffic, data-intensive features with low-latency retrieval of live metrics</li>
+                            <li><strong>API Documentation:</strong> Documented and standardized 50+ backend endpoints using Swagger UI, enabling faster integration and easier maintenance across engineering teams</li>
+                            <li><strong>Code Quality:</strong> Participated actively in comprehensive code reviews, establishing best practices for clean, modular, and maintainable full-stack codebases</li>
+                            <li><strong>Production Support:</strong> Troubleshot and debugged critical real-time full-stack technical bottlenecks, ensuring robust high availability across production environments</li>
+                            <li><strong>Team Collaboration:</strong> Collaborated as core engineering contributor within cross-functional Agile teams using JIRA sprint management and agile frameworks</li>
                         </ul>
+                        <p style="margin-top: 1rem; font-weight: 600;"><strong>Tech Stack:</strong> React.js, Angular, Next.js, Node.js, Express.js, MongoDB, MySQL, SQL, Microservices, OpenSearch, Docker, AWS</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Bachelor of Technology</h3>
-                        <span class="experience-date">Graduated 2022</span>
-                    </div>
-                    <p class="experience-company">Meerut International Institute of Technology</p>
-                    <div class="experience-description">
-                        <p>Completed comprehensive software engineering curriculum with focus on full-stack development and web technologies.</p>
-                    </div>
+    <!-- Education Section -->
+    <section id="education" style="padding: 3rem 2rem; background: var(--bg-light);">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 900px; margin: 0 auto;">
+                <div style="background: white; padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);">
+                    <h3 style="color: var(--text-dark); font-size: 1.1rem; margin-bottom: 0.3rem;">Bachelor of Technology</h3>
+                    <p style="color: var(--primary); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem;">Meerut International Institute of Technology</p>
+                    <p style="color: var(--text-light); font-size: 0.85rem;">Graduated: July 2022</p>
                 </div>
-
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Diploma in Engineering</h3>
-                        <span class="experience-date">2018 – 2021</span>
-                    </div>
-                    <p class="experience-company">Govt. Polytechnic Saharanpur | BTEUP Board</p>
-                    <div class="experience-description">
-                        <p>Foundation in engineering principles and technical fundamentals.</p>
-                    </div>
+                <div style="background: white; padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);">
+                    <h3 style="color: var(--text-dark); font-size: 1.1rem; margin-bottom: 0.3rem;">Diploma in Engineering</h3>
+                    <p style="color: var(--primary); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem;">Govt. Polytechnic Saharanpur | BTEUP Board</p>
+                    <p style="color: var(--text-light); font-size: 0.85rem;">2018 – 2021</p>
                 </div>
             </div>
         </div>
